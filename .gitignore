@@ -1,0 +1,13 @@
+.gradle/
+.DS_Store
+**/build/
+.idea/
+*.iml
+.env
+.env.*
+!.env.example
+*.log
+**/application-local.yaml
+**/application-local.yml
+*.pem
+*.key

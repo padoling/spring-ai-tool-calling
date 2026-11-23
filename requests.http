@@ -1,0 +1,17 @@
+### 정상 변환: 뉴욕 2026-07-15 오전 2시. Tool 호출·실행 결과 확인
+POST http://127.0.0.1:8080/api/chat
+Content-Type: application/json
+
+{"message":"2026년 7월 15일 서울 오후 3시는 뉴욕 몇 시야?"}
+
+### 일반 질문: Tool 실행 없음
+POST http://127.0.0.1:8080/api/chat
+Content-Type: application/json
+
+{"message":"안녕!"}
+
+### 정보 부족: 누락한 출발 지역·날짜 확인. Tool 실행 없음
+POST http://127.0.0.1:8080/api/chat
+Content-Type: application/json
+
+{"message":"오후 3시는 뉴욕 몇 시야?"}

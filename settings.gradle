@@ -1,0 +1,2 @@
+rootProject.name = 'function-calling-chat'
+include 'starter', 'solution'

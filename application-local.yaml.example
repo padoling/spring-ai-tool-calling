@@ -1,0 +1,5 @@
+spring:
+  ai:
+    google:
+      genai:
+        api-key: "여기에 Gemini API 키 입력"
